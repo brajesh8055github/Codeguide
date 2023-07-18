@@ -1,38 +1,692 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@600;700&family=Poppins:ital,wght@0,100;0,200;0,500;0,600;1,600&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#title{
+  color: red;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
+
+}
+a:hover{
+  color: #fff;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  line-height: 1.4;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/*---------------------------Navbar--------------------------*/
+
+.head {
+  background: #440393;
+
+}
+
+
+/*---------------------------Home Page--------------------------*/
+.btn:hover {
+  color: #d448ff;
+
+}
+
+.header-top {
+  max-width: 1300px;
+  margin: auto;
+  background: #000;
+  color: #fff;
+}
+.header {
+  width: 1100px;
+  margin: auto;
+  background: #000;
+  color: #fff;
+}
+
+/*---------------------------About/Home-Page--------------------------*/
+
+.row-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ca-header {
+  max-width: 500px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 10px;
+}
+.team-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-h {
+  background: #9a47ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+}
+
+.btn-h:hover {
+  background: #8724ff;
+  transition: 0.5s ease-in;
+}
+.btn-h2 {
+  color: #9a47ff;
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+}
+.btn-h2:hover {
+  background: #8724ff;
+  color: #fff;
+  transition: 0.5s ease-in;
+}
+.btn-p {
+  background: #01c61fd2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+}
+.ca-header {
+  max-width: 500px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.header-img {
+  width: 100%;
+}
+
+.logo-img {
+  width: 100%;
+}
+
+/*--------------------------Overview CSS----------------------------*/
+.c-status{
+  width: 600px;
+  margin: 60px auto;
+  text-align: center;
+}
+.c-status i{
+  color: green;
+  padding-right: 5px;
+}
+
+/*--------------------------Overview CSS----------------------------*/
+
+
+.overview {
+  width: 1100px;
+  margin: 40px auto;
+}
+.row-o {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ca-o {
+  border: 1px solid rgb(233, 233, 233);
+  max-width: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.6s ease-out;
+  cursor: pointer;
+}
+
+.ca-o:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.over-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.over-img {
+  width: 100px;
+}
+
+/*--------------------------Courses CSS ----------------------------*/
+
+.cc{
+  max-width: 1100px;
+  margin: 5px auto;
+  padding: 0 20px;
+}
+.courses {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px ;
+}
+
+.course {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px ;
+}
+.course p{
+  font-weight: 400;
+}
+.row-c {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ca-d {
+  max-width: 300px;
+  border-radius: 10px;
+  border: 1px solid #d3d3d3;
+  padding: 10px;
+  margin: 10px;
+}
+
+.ca {
+  max-width: 300px;
+  border-radius: 10px;
+  border: 1px solid #d3d3d3;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.about-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 80px 0 80px 0;
+}
+
+.team-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  object-fit: cover;
+}
+
+.course-btn {
+  background: #440393;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 7px 20px;
+  text-align: center;
+  margin-top: 11.200px;
+
+  width: 100% !important;
+}
+/*--------------------------Payment CSS----------------------------*/
+.payment{
+  max-width: 1100px;
+  padding: 10px 0;
+  margin: 40px auto;
+  text-align: center;
+}
+.payment h1{
+  font-weight: 800;
+  font-size: 60px;
+  background: linear-gradient(143deg, rgba(255,11,11,1) 16%, rgba(255,9,221,1) 67%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.error-img{
+  width: 300px;
+}
+.error-btn {
+  background: #440393;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 7px 30px;
+  text-align: center;
+}
+/*--------------------------Feedback CSS----------------------------*/
+
+.feed {
+  margin: 20px 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.feedback-row {
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.feedback {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 40px auto;
+}
+.feedback p{
+  font-weight: 400;
+}
+.student-feedback {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.student-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 120px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.card {
+  border: 1px solid rgb(205, 205, 205);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.left-h {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.desc {
+  padding: 0 10px;
+}
+
+/*--------------------------Footer CSS----------------------------*/
+
+.footer {
+  background: #440393;
+  max-width: 1300px;
+  color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto 0;
+}
+.footer-d{
+  padding: 5px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 2;
+}
+
+.b {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+/* --------------------------------Contact------------------------*/
+
+
+.yes{
+  padding: 15px;
+  border-radius: 5px;
+  background: #00a632;
+  color: #fff;
+}
+
+.fill{
+  padding: 15px;
+  border-radius: 5px;
+  background: #ff0f0f;
+  color: #fff;
+}
+
+
+.need {
+  padding-bottom: 20px;
+}
+
+.about {
+  width: 1100px;
+  margin: 40px auto;
+}
+iframe{
+  width: 100%;
+}
+.contact {
+  width: 600px;
+  text-align: start;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input:focus {
+  outline: 1px solid rgb(209, 223, 255);
+
+}
+
+.btn-c {
+  background: #000;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* -----------------------------------Technology------------------------*/
+.tech {
+  width: 1100px;
+  margin: 40px auto;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.css {
+  width: 170px;
+}
+
+
+.ca-t {
+  border: 1px solid rgb(233, 233, 233);
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.6s ease-out;
+  cursor: pointer;
+}
+
+.ca-t:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* -----------------------------------Course-Details------------------------*/
+
+.bi-star-fill{
+  color: rgb(255, 213, 0);
+}
+.bi-star-half{
+  color: rgb(255, 213, 0);
+}
+
+.details {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.det {
+  color: #fff;
+}
+
+.facilities {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: auto;
+  padding: 40px;
+  background: #ffffff;
+}
+
+/* -----------------------------------Course-Details------------------------*/
+.copy {
+  border-top: 1px solid #fff;
+  text-align: center;
+  background: #440393;
+  color: #fff;
+  padding: 20px 0;
+}
+.copy p{
+  margin: 0;
+}
+
+/* --------------------------------Purchase------------------------*/
+.purchase {
+  display: flex;
+}
+
+/* -----------------------------------Privacy------------------------*/
+.privacy,.terms{
+  width: 1100px;
+  margin: 40px auto;
+}
+
+
+/*------------------------------------ Media Querry------------------------------------*/
+@media (max-width:1070px) {
+  .ca-t {
+    max-width: auto;
   }
-  to {
-    transform: rotate(360deg);
+  .privacy,.terms{
+    width: auto;
+    margin: 40px;
+  }
+
+  .card-img {
+    height: 200px;
+  }
+
+  .courses,
+  .feedback {
+    max-width: auto;
+  }
+  .course{
+    max-width: auto;
+  }
+
+  .overview,
+  .cont {
+    width: auto;
+  }
+
+  .map,
+  .header {
+    width: auto;
+  }
+
+  .tech,
+  .about {
+    width: auto;
+  }
+  .about{
+    padding: 10px;
+  }
+
+  .header-top {
+    max-width: auto;
+  }
+
+  .css {
+    width: 120px;
+  }
+}
+
+@media (max-width:800px) {
+  .css {
+    width: 100px;
+  }
+  .purchase {
+    display: block;
+  }
+
+  .card-body {
+    width: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .row-header {
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .about-img {
+    width: 100%;
+    border-radius:0;
+  }
+  .course{
+      display: block;
+  }
+  .ca-d {
+    max-width: 100%;
+    margin: 10px auto;
+    border: 1px solid #d3d3d3;
+    
+  }
+  .ca-header {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .row-c {
+    display: block;
+  }
+
+  .row-o {
+    display: block;
+  }
+
+  .feedback {
+    display: block;
+  }
+
+  .ca {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 10px;
+  }
+
+  .ca-o {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 10px;
+  }
+
+
+  .ca-t {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 10px;
+  }
+
+  .tech-img {
+    width: 100%;
+  }
+
+  .cont {
+    display: block;
+  }
+
+  .le {
+    display: block;
+  }
+
+  .contact {
+    width: auto;
+
+  }
+  .c-status{
+    width: auto;
+  }
+
+
+
+}
+
+@media (max-width:580px) {
+  .footer {
+    display: block;
+  }
+  
+  .tech {
+    display: block;
+  }
+
+  .navbar {
+    padding: 5px;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+
+  .link {
+    font-size: 10px;
+    padding: 10px;
+
+  }
+
+  .btn {
+    padding: 10px;
+    border-radius: 0;
+
+  }
+}
+
+@media (max-width:580px) {
+  .link {
+    font-size: 10px;
+    padding: 2px;
+
+  }
+
+  .btn {
+    border-radius: 0;
+  }
+
+}
+@media (max-width:320px) {
+  .team-header{
+    display: block;
+    border: 1px solid lightgrey;
   }
 }
