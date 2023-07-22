@@ -18,10 +18,10 @@ function Footer(){
         </div>
         <div className="footer-d">
           <h4 className="b">Social Media</h4>
-          <a href="https://www.linkedin.com" rel="noreferrer" target={"_blank"}>LinkedIn</a><br></br>
+          <a href="https://www.linkedin.com/in/brajesh-kumar-6354ab234/" rel="noreferrer" target={"_blank"}>LinkedIn</a><br></br>
           <a href="https://www.facebook.com" rel="noreferrer" target={"_blank"}>Facebook</a><br></br>
           <a href="https://www.Instagram.com" rel="noreferrer" target={"_blank"}>Instagram</a><br></br>
-          <a href="https://www.whatsapp.com" rel="noreferrer" target={"_blank"}>Whatsapp</a>
+          <a href="https://github.com/brajesh8055github" rel="noreferrer" target={"_blank"}>Github</a>
         </div>
         <div className="footer-d">
           <h4 className="b">Legal</h4>

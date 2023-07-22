@@ -2,6 +2,7 @@ import Footer from '../pages/Footer'
 import mission from '../image/mission.jpg';
 import vision from '../image/vision.jpg';
 import user from '../image/circle-cropped.png';
+import user2 from '../image/Brajeshpic2.png';
 
 function About() {
   return (
@@ -23,7 +24,7 @@ function About() {
         <div className=" row-header text-center">
           <div className="ca-header">
             <h4>Our Vision</h4>
-            <p>Our vision at codingwiz is to create a world where learning is accessible, engaging, and effective for all. We believe that technology can be a powerful tool for transforming education, and we are committed to leveraging it to its fullest potential.Ultimately, our vision is to empower learners of all ages and backgrounds to achieve their full potential, to unlock their creativity and curiosity, and to become lifelong learners and leaders in their communities and beyond.</p>
+            <p>Our vision at codeguide is to create a world where learning is accessible, engaging, and effective for all. We believe that technology can be a powerful tool for transforming education, and we are committed to leveraging it to its fullest potential.Ultimately, our vision is to empower learners of all ages and backgrounds to achieve their full potential, to unlock their creativity and curiosity, and to become lifelong learners and leaders in their communities and beyond.</p>
           </div>
           <div className="ca-header">
             <img src={vision} className="about-img" loading='lazy' alt=''></img>
@@ -34,12 +35,12 @@ function About() {
       <h4 className='text-center'>Our Team</h4>
       <div className=" row-header">
         <div className="ca-header team-header">
-          <img src={user} className="team-img" alt=''></img>
+          <img src={user2} className="team-img" alt=''></img>
           <div className="ms-4">
             <h4>Brajesh Kumar</h4>
             <p>Founder</p>
             <p>A veteran and enthusiastic software developer immersed with skills like Full-stack development, team building and leadership.</p>
-            <a href='https://www.linkedin.com'><button className='btn-h'>LinkedIn</button></a>
+            <a href='https://www.linkedin.com/in/brajesh-kumar-6354ab234/'><button className='btn-h'>LinkedIn</button></a>
           </div>
         </div>
         <div className="ca-header team-header">
