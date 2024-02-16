@@ -1,4 +1,4 @@
-import CodingWiz from '../image/codingwiz.gif';
+import codeguide from '../image/codeguide.gif'
 import video from '../image/best-video.png';
 import certificate from '../image/certificate.png';
 import doubt from '../image/doubt.png';
@@ -19,10 +19,10 @@ function Home() {
               <h1>Career with CodeGuide</h1>
               <p>Be job ready by learning top & trending technologies used by leading MNCs at just starting price from ₹499!</p>
               <a href='/course-page'><button className="btn-h me-2">Explore Courses</button></a>
-              <a href="tel:+91-3224358950" className="callTutors"><button className="btn-h2">Call Tutors</button></a>
+              <a href="tel:+91-7544805533" className="callTutors"><button className="btn-h2">Call Tutors</button></a>
             </div>
             <div className="ca-header">
-              <img src={CodingWiz} className="logo-img" loading='lazy' alt=''></img>
+              <img src={codeguide} className="logo-img" loading='lazy' alt=''></img>
             </div>
           </div>
         </div>
